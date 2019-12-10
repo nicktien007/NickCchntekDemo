@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Nick.Demo.Ex6_2_1
 {
     /// <summary>
-    /// Ex6_2_1：練習2
+    /// Ex6_2_1：練習2 
     /// </summary>
     class Program
     {
