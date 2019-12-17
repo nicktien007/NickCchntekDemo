@@ -77,7 +77,8 @@ namespace Nick.Demo.Ex7_1
         public override void 獲得客戶的訂單()
         {
             //從Nick那邊學到一點技巧
-            Console.WriteLine("小明從Nick那邊學到一點技巧，然後融會貫通研發自己一套獲得訂單方式");
+            Console.WriteLine("小明從Nick那邊學到一點技巧，" +
+                              "然後看書研發自己一套獲得訂單方式");
         }
     }
 
