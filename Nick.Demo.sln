@@ -63,7 +63,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nick.Demo.Ex6_2_1", "Nick.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nick.Demo.Ex7_1", "Nick.Demo.Ex7_1\Nick.Demo.Ex7_1.csproj", "{4F615185-2A6E-4A7F-B8D2-26738981B98A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nick.Demo.Ex7_1_OPP", "Nick.Demo.Ex7_1_OPP\Nick.Demo.Ex7_1_OPP.csproj", "{00615FC6-B266-46D9-93B1-18A437C4D479}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nick.Demo.Ex7_1_OPP_1", "Nick.Demo.Ex7_1_OPP\Nick.Demo.Ex7_1_OPP_1.csproj", "{00615FC6-B266-46D9-93B1-18A437C4D479}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

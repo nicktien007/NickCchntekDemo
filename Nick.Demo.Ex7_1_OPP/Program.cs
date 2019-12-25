@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Nick.Demo.Ex7_1_OPP
 {
     /// <summary>
-    /// Ex7_1 - OPP版本
+    /// Ex7_1 - OPP版本1
     /// </summary>
     class Program
     {
