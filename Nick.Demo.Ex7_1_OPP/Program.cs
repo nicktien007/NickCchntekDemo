@@ -15,7 +15,7 @@ namespace Nick.Demo.Ex7_1_OPP
         {
             Console.WriteLine("==========Nick===========");
             string nickName = "Nick";
-
+            Console.WriteLine($"{nickName}成為一名業務");
             Console.WriteLine($"{nickName}跟客戶溝通");
             Console.WriteLine($"{nickName}使用研發多年的心法取得客戶訂單!!");
             Console.WriteLine($"{nickName}下訂單!!");
@@ -24,6 +24,7 @@ namespace Nick.Demo.Ex7_1_OPP
             Console.WriteLine("\n==========小明===========");
 
             string nick的同事 = "小明";
+            Console.WriteLine($"{nick的同事}成為一名業務");
             Console.WriteLine($"{nick的同事}跟客戶溝通");
             Console.WriteLine($"{nick的同事}使用從Nick那邊學到的一點技巧，" +
                               "然後看書研發自己一套獲得訂單方式取得客戶訂單");
@@ -32,10 +33,13 @@ namespace Nick.Demo.Ex7_1_OPP
             Console.WriteLine("\n==========小Nick==========");
 
             string nick兒子 = "小nick";
+            Console.WriteLine($"{nick兒子}子承父業成為一名業務");
             Console.WriteLine($"{nick兒子}跟客戶溝通");
             Console.WriteLine($"{nick兒子}使用研發多年的心法取得客戶訂單!!");
             Console.WriteLine($"{nick兒子}下訂單!!");
             Console.WriteLine($"{nick兒子}傳授一點點心法加一些些誤導指點同事");
+
+            Console.ReadKey();
 
             //以上代碼沒有問題，但是…假設nick公司有50個業務
 

@@ -87,6 +87,6 @@ namespace Nick.Demo.Ex7_1
     /// </summary>
     public class 小Nick : Nick
     {
-
+        
     }
 }
