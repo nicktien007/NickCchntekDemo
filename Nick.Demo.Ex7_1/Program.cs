@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Nick.Demo.Ex7_1
 {
     /// <summary>
-    /// Ex7_1 - 講故事，學OOP
+    /// Ex7_1 - 講故事，學OOP - 版本3(物件導向版本)
     /// </summary>
     class Program
     {
