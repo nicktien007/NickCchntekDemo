@@ -12,12 +12,12 @@ namespace Nick.Demo.Ex4_3_1
             Console.WriteLine("請輸入您的體重(公斤)");
             string weightStr = Console.ReadLine();
 
-            Console.WriteLine("請輸入您的身高(公尺)");
+            Console.WriteLine("請輸入您的身高(公分)");
             string heightStr = Console.ReadLine();
 
             //調用double.Parse 轉型
             double weight = double.Parse(weightStr);
-            double height = double.Parse(heightStr);
+            double height = double.Parse(heightStr) / 100;
 
             //BMI公式：BMI公式：體重[公斤] / 身高[公尺] * 身高[公尺]
             double BMI = weight / (height * height);
