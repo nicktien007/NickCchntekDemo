@@ -81,6 +81,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nick.Demo.Ex4_2_1", "Nick.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nick.Demo.Dcard.Iteration1", "Nick.Demo.Dcard.Iteration1\Nick.Demo.Dcard.Iteration1.csproj", "{EE8209ED-1A56-4936-BF78-7A99E1F31C0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nick.Demo.Ex5_1_2", "Nick.Demo.Ex5_1_2\Nick.Demo.Ex5_1_2.csproj", "{DD3B8794-E511-4567-B34B-58BA40FC7780}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +245,10 @@ Global
 		{EE8209ED-1A56-4936-BF78-7A99E1F31C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE8209ED-1A56-4936-BF78-7A99E1F31C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE8209ED-1A56-4936-BF78-7A99E1F31C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD3B8794-E511-4567-B34B-58BA40FC7780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD3B8794-E511-4567-B34B-58BA40FC7780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD3B8794-E511-4567-B34B-58BA40FC7780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD3B8794-E511-4567-B34B-58BA40FC7780}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
