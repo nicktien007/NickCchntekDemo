@@ -85,6 +85,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nick.Demo.Ex5_1_2", "Nick.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nick.Demo.Dcard.Iteration2", "Nick.Demo.Dcard.Iteration2\Nick.Demo.Dcard.Iteration2.csproj", "{D1ABA290-7806-44E0-B8E3-A40E43EADD79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nick.Demo.Dcard.Iteration3", "Nick.Demo.Dcard.Iteration3\Nick.Demo.Dcard.Iteration3.csproj", "{F1218A38-4F47-45B3-AF91-CD3750DF4C49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -255,6 +257,10 @@ Global
 		{D1ABA290-7806-44E0-B8E3-A40E43EADD79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1ABA290-7806-44E0-B8E3-A40E43EADD79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1ABA290-7806-44E0-B8E3-A40E43EADD79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1218A38-4F47-45B3-AF91-CD3750DF4C49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1218A38-4F47-45B3-AF91-CD3750DF4C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1218A38-4F47-45B3-AF91-CD3750DF4C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1218A38-4F47-45B3-AF91-CD3750DF4C49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
