@@ -25,7 +25,10 @@ namespace Nick.Demo.Dcard.Iteration2
             HttpClient httpClient = new HttpClient();
 
             //組裝討論區列表的網址
-            string url = $"https://www.dcard.tw/service/api/v2/forums/{(ForumType)typeCode}/posts?popular=true&limit={limit}";
+            string url = $"https://www.dcard.tw/service/api/v2/forums/" +
+                         $"{(ForumType) typeCode}/posts" +
+                         $"?popular=true" +
+                         $"&limit={limit}";
             
             //發送請求並取得回應內容
             var response = httpClient.GetAsync(url).Result;
