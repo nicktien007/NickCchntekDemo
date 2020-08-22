@@ -1,8 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
 
-namespace Nick.Demo.Dcard.Iteration3
+using System.Text.Json;
+
+namespace Nick.Demo.Dcard.Iteration4
 {
     internal class Program
     {
@@ -21,10 +24,21 @@ namespace Nick.Demo.Dcard.Iteration3
             Console.WriteLine($"\n您輸入的代碼為：{code},討論區為：{(ForumType)typeCode}，爬取筆數：{limit}，即將為你進行爬蟲~~~\n");
 
             
-            //抽出一個方法，
+            //抽出一個方法，參數為typeCode(討論區代碼)，limit(爬取筆數)
             string jsonString = GetDcardList(typeCode, limit);
 
-            Console.WriteLine($"爬到的內容為：{jsonString}");
+            
+            //調用JsonSerializer組件，將 jsonString 反序列化為 List<DcardList> 型別
+            List<DcardList> dcardLists = JsonSerializer.Deserialize<List<DcardList>>(jsonString);
+            
+            Console.WriteLine("爬到的內容為：");
+
+            //使用for迴圈，將dcardLists逐筆取出並打印出來
+            for (int i = 0; i < dcardLists.Count; i++)
+            {
+                Console.WriteLine($"ID: {dcardLists[i].id}, Title: {dcardLists[i].title}, excerpt: {dcardLists[i].excerpt}");
+            }
+            
             Console.Read();
         }
 
@@ -46,8 +60,7 @@ namespace Nick.Demo.Dcard.Iteration3
                 throw new Exception("抓不到資料，請稍後再試!!");
 
             //讀取Content內容
-            string jsonString = response.Content.ReadAsStringAsync().Result;
-            return jsonString;
+            return response.Content.ReadAsStringAsync().Result;
         }
     }
 }
